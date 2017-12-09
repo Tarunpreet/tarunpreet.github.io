@@ -1,12 +1,42 @@
 
+*{
+  margin: 0;
+  border: 0;
+}
 body, html {
     height: 100%;
 }
+#container
+{
+  min-height: 100%;
+}
+#body
+{
+  overflow: auto;
+  padding-bottom: 100px;
+}
+.foot
+{
+  background-image: linear-gradient(-180deg, #3CD0AE 0%, #37BA8D 100%);
+  box-shadow: 13px 10px 32px 11px rgba(0,0,0,0.50), inset 0 1px 3px 0 rgba(0,0,0,0.50);
+  margin-top: -60px;
+  position: relative;
+  height: 60px;
+}
+.foot > ul
+{
+  list-style-type: none;
 
+}
+.foot > ul > li{
+  display: inline-block;
+  padding-bottom: 14px;
+  padding-top: 14px;
+}
 .parallax {
     /* The image used */
     background-image: url("Images/proj_back.jpg");
-    
+
 
     /* Full height */
     height: 100%;
