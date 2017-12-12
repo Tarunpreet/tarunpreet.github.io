@@ -11,17 +11,24 @@ html, body{
 {
   min-height: 100%;
 }
-#body
+#main
 {
   overflow: auto;
   padding-bottom: 100px;
 }
+/*#imag
+{
+  margin-top: 6px;
+}*/
 .nav
 {
   list-style-type: none;
   /* Rectangle 2: */
-background-image: linear-gradient(-180deg, #299083 1%, #1DA287 99%);
-box-shadow: 10px 9px 11px 12px rgba(0,0,0,0.50), inset 0 0 0 2px rgba(0,0,0,0.50);
+/*background-image: linear-gradient(-180deg, #299083 1%, #1DA287 99%);
+box-shadow: 10px 9px 11px 12px rgba(0,0,0,0.50), inset 0 0 0 2px rgba(0,0,0,0.50);*/
+/* Rectangle: */
+background: #AC1EFF;
+box-shadow: 4px 5px 11px 10px rgba(0,0,0,0.50);
 }
 .nav > li{
   display: inline-block;
@@ -30,21 +37,23 @@ box-shadow: 10px 9px 11px 12px rgba(0,0,0,0.50), inset 0 0 0 2px rgba(0,0,0,0.50
 }
 .foot
 {
-  background-image: linear-gradient(-180deg, #3CD0AE 0%, #37BA8D 100%);
-  box-shadow: 13px 10px 32px 11px rgba(0,0,0,0.50), inset 0 1px 3px 0 rgba(0,0,0,0.50);
-  margin-top: -60px;
+  /* Rectangle: */
+  /* Rectangle: */
+  background: rgba(95,119,184,0.54);
+  border: 3px solid #FFFFFF;
+  box-shadow: 4px 5px 11px 10px rgba(0,0,0,0.50);
+  margin-top: -63px;
   position: relative;
-  height: 60px;
+  height: 63px;
 }
 .foot > ul
 {
   list-style-type: none;
-
+  padding-top: 6px;
 }
 .foot > ul > li{
   display: inline-block;
-  padding-bottom: 14px;
-  padding-top: 14px;
+
 }
 a{
 /* Achievments: */
@@ -58,7 +67,7 @@ text-decoration: none;
 }
 a:hover
 {
-  color: #00FFB3;
+  color: #089CFF;
 }
 a:active
 {
