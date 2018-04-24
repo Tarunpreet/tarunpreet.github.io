@@ -68,10 +68,7 @@ a:active
   color: #7321BA;
 }
 .parallax {
-    /* The image used */
     background-image: url("IMAGE.JPEG");
-
-
     /* Full height */
     height: 100%;
 
