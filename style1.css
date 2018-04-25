@@ -68,8 +68,9 @@ a:active
   color: #7321BA;
 }
 .parallax {
+
     background-image: url("IMAGE.JPEG");
-    /* Full height */
+
     height: 100%;
 
     /* Create the parallax scrolling effect */
