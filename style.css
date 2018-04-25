@@ -29,18 +29,22 @@ html, body{
   padding-bottom: 23px;
   padding-top: 23px;
 }
+
+/*#images
+{
+  margin-top: 4px;
+}*/
 .foot
 {
-  /*background-image: linear-gradient(-180deg, #3CD0AE 0%, #37BA8D 100%);
-  box-shadow: 13px 10px 32px 11px rgba(0,0,0,0.50), inset 0 1px 3px 0 rgba(0,0,0,0.50);*/
-
-background-image: linear-gradient(-180deg, #343434 0%, #484848 100%);
+  /* Rectangle: */
+  /* Rectangle: */
+  background-image: linear-gradient(-180deg, #343434 0%, #484848 100%);
 box-shadow: 6px 9px 6px 7px rgba(0,0,0,0.50);
 /* Rectangle 2: */
 border: 2px solid #FFFFFF;
-  margin-top: -65px;
+  margin-top: -63px;
   position: relative;
-  height: 65px;
+  height: 63px;
 }
 .foot > ul
 {
@@ -49,13 +53,9 @@ border: 2px solid #FFFFFF;
 }
 .foot > ul > li{
   display: inline-block;
-  padding-bottom: 14px;
-  padding-top: 14px;
+
+
 }
-/*#images
-{
-  margin-top: 4px;
-}*/
 .parallax {
     /* The image used */
     background-image: url("Images/proj_back.jpg");
