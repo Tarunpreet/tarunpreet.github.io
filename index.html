@@ -1,38 +1,67 @@
 <html>
 <head>
-<title>Tarunpreet Singh</title>
+<title>Tarunpreet Singh Suri</title>
 <meta name="viewport" content="initial-scale=1.0,width=device-width">
 </head>
 <style>
 
-body
+html,body
 {
-  margin: 0%;
+  margin: 0;
+  padding:0;
+  height: 100%;
+  width: 100%;
 }
 #particles-js
 {
   background-image: url('image1.jpg');
-  min-height: 100vh;
-  width: 100vw;
-
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .typewriter  {
   color: #ffffff;
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 4px solid white; /* The typwriter cursor */
+  border-right: 4px solid rgb(255, 255, 255); /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   animation:
-  typing 4s steps(23),
-  blink-caret .5s step-end infinite;
-  margin-left: 33%;
-  margin-right: 10%;
-  position: absolute;
-  font-size: 46px;
-  top:30%;
+    typing 4s steps(23),
+    blink-caret .5s step-end infinite;
+   
+    position: absolute;
+    font-size: 46px;
 }
+.intro
+{
+margin: auto;
+display: table;
 
+}
+.intro .inner
+{
+  display: table-cell;
+  vertical-align: middle;
+}
+.content
+{
+  max-width: 700px;
+  text-align: center;
+  vertical-align: center;
+
+}
+.content h1
+{
+  /* TARUNPREET SINGH SUR: */
+
+font-family: MalayalamSangamMN-Bold;
+font-size: 54px;
+color: #FFFFFF;
+}
 /* The typing effect */
 @keyframes typing {
   from { width: 0ch }
@@ -58,7 +87,8 @@ function site()
 </script>
 <body onload="func1()">
 <div id="particles-js">
-
+<div class="intro">
+<div class="inner">
 <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 <script>
 particlesJS.load('particles-js','particle.json',function()
@@ -66,12 +96,15 @@ particlesJS.load('particles-js','particle.json',function()
   console.log('particle.json loaded....');
 });
 </script>
- <img  style="top:100px; position:absolute; margin-left:27%;"src="name.png" height="45px" width="720px">
+<div class="content">
+ <h1>TARUNPREET SINGH SURI</h1>
 <div class="typewriter">
    COUT<<"HELLO WORLD!!";
  </div>
-<a href="index2.html"><img id="myimage" src="Group.png" height="80px" width="290px" style="display:none;top:460px; position:absolute; margin-left:590px;">
-
+<a class="btn" href="index2.html">Enter</a>
+</div>
+</div>
+</div>
 </div>
 </body>
 </html>
