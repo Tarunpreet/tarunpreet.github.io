@@ -10,20 +10,44 @@ html, body{
 {
   min-height: 100%;
   min-width: 100%;
-  border:2px solid black;
+  /* border:2px solid black; */
 }
 .nav
 {
   /* list-style-type: block; */
   background-color: rgb(252, 252, 252);
   box-shadow: 4px 5px 11px 10px rgba(0,0,0,0.50);
+  display: block;
+
   
+}
+
+#code_img
+{ 
+   margin-left:7%; 
+   padding-bottom:0px;
+   top:20px;
+   display:inline;
+   position: relative;
+}
+#Name
+{
+  color: rgb(255, 145, 0);
+  font-size: 32px
+}
+#firstspace
+{
+  margin-left: 1%;
+}
+#about
+{
+  margin-left: 27%;
 }
 #intro
 {
   text-align: center;
-  margin-top:30%;
-  margin-bottom: 25%;
+  margin-top:33%;
+  margin-bottom: 23%;
   font-size: 24px;
   max-width: 100%;
 }
@@ -86,12 +110,67 @@ a:active
     background-repeat: no-repeat;
     background-size: cover;
 }
-@media screen and (max-width:468px){
-  a{
-    /* Achievments: */
-   
-    font-size: 16px;
-    
-    }
-  
-  }
+#img
+{
+width: 7%;
+height: 7%;
+}
+@media screen and (max-width:370px){
+  #code_img
+{ 
+   margin-left:40%; 
+   padding-bottom:0px;
+   top:1px;
+   display:block;
+   position: relative;
+}
+#img
+{
+width: 35%;
+height: 6%;
+}
+#Name
+{
+  color: rgb(255, 145, 0);
+  font-size: 27px
+}
+/* #firstspace
+{
+  margin-left: 1%;
+}
+#secondspace
+{
+  margin-left: 4%;
+}
+a
+{
+  font-size: 18px;
+}
+*/
+#intro
+{
+  margin-top: 70%;
+  font-size: 20px;
+} 
+#Navigation
+{
+  display: none;
+}
+#about
+{
+  display:none;
+}
+#Achievments
+{
+  display:none;
+}
+#Education
+{
+  display: none;
+}
+#Projects
+{
+  display: none;
+}
+
+}
