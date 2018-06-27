@@ -17,11 +17,11 @@ html, body{
   /* list-style-type: block; */
   background-color: rgb(252, 252, 252);
   box-shadow: 4px 5px 11px 10px rgba(0,0,0,0.50);
-  display: block;
+  min-width: 100%;
+  display:block;
+  line-height: 65px;
 
-  
 }
-
 #code_img
 { 
    margin-left:7%; 
@@ -46,7 +46,7 @@ html, body{
 #intro
 {
   text-align: center;
-  margin-top:33%;
+  margin-top:24%;
   margin-bottom: 23%;
   font-size: 24px;
   max-width: 100%;
@@ -59,7 +59,32 @@ html, body{
   padding-right: 0%;
   margin-right: 0%;
 }
+label
+{
+  float: right;
+  margin-right: 4%;
+  margin-top:6%;
+  font-size: 22px;
+  display:none;
+  line-height: 65px;
 
+}
+.dropdown
+{
+  margin: 0 30px 0 0;
+  background-color: rgba(255, 255, 255, 0.836);
+}
+.dropdown a{
+  /* Achievments: */
+  font-family: 'Roboto Slab', serif;
+  font-size: 28px;
+  color:#ff8d0b;
+  text-decoration: none;
+  margin:0 10px;
+  line-height: 65px;
+  display: none;
+  /*padding-left: 25px;*/
+  }
 .foot
 {
   /* Rectangle: */
@@ -81,7 +106,7 @@ html, body{
 
 
 }
-a{
+.nav a{
 /* Achievments: */
 font-family: 'Roboto Slab', serif;
 font-size: 28px;
@@ -90,11 +115,11 @@ text-decoration: none;
 
 /*padding-left: 25px;*/
 }
-a:hover
+.nav a:hover
 {
   color: #FFEF00;
 }
-a:active
+.nav a:active
 {
   color: #7321BA;
 }
@@ -115,28 +140,32 @@ a:active
 width: 7%;
 height: 7%;
 }
-@media screen and (max-width:370px){
+#toggle
+{
+  display: none;
+}
+@media screen and (max-width:375px){
   #code_img
 { 
-   margin-left:40%; 
+   margin-left:6%; 
    padding-bottom:0px;
-   top:1px;
-   display:block;
+   top:20px;
+   display:inline;
    position: relative;
 }
 #img
 {
-width: 35%;
+width: 16%;
 height: 6%;
 }
 #Name
 {
   color: rgb(255, 145, 0);
-  font-size: 27px
+  font-size: 27px;
 }
-/* #firstspace
+ #firstspace
 {
-  margin-left: 1%;
+  margin-left: 2%;
 }
 #secondspace
 {
@@ -146,11 +175,10 @@ a
 {
   font-size: 18px;
 }
-*/
 #intro
 {
   margin-top: 70%;
-  font-size: 20px;
+  font-size: 19px;
 } 
 #Navigation
 {
@@ -172,5 +200,30 @@ a
 {
   display: none;
 }
+label
+{
+ 
+  display: block;
+  cursor: pointer;
+}
+.dropdown
+{
+  text-align: center;
+  width:100%;
+  display: none;
+  
+}
+.dropdown a
+{
+  display: block;
+  margin: 0;
+  border-bottom:1px solid rgb(240, 169, 76);
+  
+}
+#toggle:checked + .dropdown
+{
+  transition: 200ms;
+  display: block;
 
+}
 }
