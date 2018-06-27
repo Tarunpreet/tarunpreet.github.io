@@ -89,9 +89,9 @@ label
 {
   /* Rectangle: */
   /* Rectangle: */
-  background: rgba(95,119,184,0.54);
+  background: rgba(0, 0, 0, 0.877);
   border: 3px solid #FFFFFF;
-  box-shadow: 4px 5px 11px 10px rgba(0,0,0,0.50);
+  box-shadow: 4px 5px 11px 10px rgba(122, 85, 4, 0.788);
   margin-top: -63px;
   position: relative;
   height: 63px;
@@ -105,6 +105,34 @@ label
   display: inline-block;
 
 
+}
+#follow
+{
+  color:#ffffff;
+  margin-left:75%;
+  top:12px;
+  display: inline-block;
+  position: relative;
+}
+.foot a
+{
+  margin-left:20px;
+}
+#github
+{
+width: 55%;
+height:45%;
+ top:15px;
+ display:inline-block;
+ position: relative;
+}
+#linked
+{
+  width: 27px;
+  height: 27px;
+  top:15px;
+  display:inline-block;
+  position: relative;
 }
 .nav a{
 /* Achievments: */
@@ -217,13 +245,31 @@ label
 {
   display: block;
   margin: 0;
-  border-bottom:1px solid rgb(240, 169, 76);
+  border-bottom:2px solid rgb(255, 163, 44);
   
 }
 #toggle:checked + .dropdown
 {
-  transition: 200ms;
   display: block;
 
+}
+#github
+{
+width: 55%;
+height:45%;
+}
+#linked
+{
+  width: 25px;
+  height: 25px;
+}
+#follow
+{
+  margin-left:3%;
+ 
+}
+.foot a
+{
+  margin-left:15px;
 }
 }
