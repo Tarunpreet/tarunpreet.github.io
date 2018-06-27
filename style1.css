@@ -15,33 +15,32 @@ html, body{
 .nav
 {
   /* list-style-type: block; */
-  background-color: rgb(252, 252, 252);
+  background-color: rgba(255, 255, 255, 0.664);
   box-shadow: 4px 5px 11px 10px rgba(0,0,0,0.50);
   min-width: 100%;
   display:block;
-  line-height: 65px;
-
+  line-height: 50px;
+  border: 2px solid rgb(255, 255, 255);
 }
 #code_img
 { 
-   margin-left:7%; 
+   margin-left:6%; 
    padding-bottom:0px;
    top:20px;
    display:inline;
    position: relative;
 }
-#Name
-{
-  color: rgb(255, 145, 0);
-  font-size: 32px
-}
 #firstspace
 {
-  margin-left: 1%;
+  margin-left:0.8%; 
+   padding-bottom:0px;
+   top:9px;
+   display:inline;
+   position: relative;
 }
 #about
 {
-  margin-left: 27%;
+  margin-left: 24%;
 }
 #intro
 {
@@ -59,36 +58,38 @@ html, body{
   padding-right: 0%;
   margin-right: 0%;
 }
+#tarun
+{
+  width: 300px;
+  height: 45px;
+}
 label
 {
   float: right;
   margin-right: 4%;
-  margin-top:6%;
+  margin-top:4%;
   font-size: 22px;
   display:none;
-  line-height: 65px;
-
+ 
 }
 .dropdown
 {
-  margin: 0 30px 0 0;
-  background-color: rgba(255, 255, 255, 0.836);
+  margin: 0 32px 0 0;
+  background-color: rgba(255, 255, 255, 0);
 }
 .dropdown a{
-  /* Achievments: */
+
   font-family: 'Roboto Slab', serif;
-  font-size: 28px;
-  color:#ff8d0b;
+  font-size: 29px;
   text-decoration: none;
   margin:0 10px;
   line-height: 65px;
   display: none;
-  /*padding-left: 25px;*/
+
+  color: #ffffff;
   }
 .foot
 {
-  /* Rectangle: */
-  /* Rectangle: */
   background: rgba(0, 0, 0, 0.877);
   border: 3px solid #FFFFFF;
   box-shadow: 4px 5px 11px 10px rgba(122, 85, 4, 0.788);
@@ -109,7 +110,7 @@ label
 #follow
 {
   color:#ffffff;
-  margin-left:75%;
+  margin-left:73%;
   top:12px;
   display: inline-block;
   position: relative;
@@ -134,30 +135,29 @@ height:45%;
   display:inline-block;
   position: relative;
 }
-.nav a{
-/* Achievments: */
+.nav a
+{
 font-family: 'Roboto Slab', serif;
 font-size: 28px;
-color:#555555;
+color:#444444;
 text-decoration: none;
-
-/*padding-left: 25px;*/
 }
 .nav a:hover
 {
-  color: #FFEF00;
+  color: rgb(255, 145, 0);
 }
 .nav a:active
 {
   color: #7321BA;
 }
-.parallax {
+.parallax
+ {
 
     background-image: url("WALL.jpg");
 
     height: 100%;
 
-    /* Create the parallax scrolling effect */
+    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -165,8 +165,8 @@ text-decoration: none;
 }
 #img
 {
-width: 7%;
-height: 7%;
+width: 7.5%;
+height: 7.5%;
 }
 #toggle
 {
@@ -175,15 +175,15 @@ height: 7%;
 @media screen and (max-width:375px){
   #code_img
 { 
-   margin-left:6%; 
+   margin-left:2%; 
    padding-bottom:0px;
-   top:20px;
+   top:18px;
    display:inline;
    position: relative;
 }
 #img
 {
-width: 16%;
+width: 15%;
 height: 6%;
 }
 #Name
@@ -193,11 +193,11 @@ height: 6%;
 }
  #firstspace
 {
-  margin-left: 2%;
-}
-#secondspace
-{
-  margin-left: 4%;
+  margin-left:0.6%; 
+   padding-bottom:0px;
+   top:9px;
+   display:inline;
+   position: relative;
 }
 a
 {
@@ -245,7 +245,12 @@ label
 {
   display: block;
   margin: 0;
-  border-bottom:2px solid rgb(255, 163, 44);
+  border-bottom:3px solid rgb(255, 163, 44);
+  
+}
+.dropdown a:hover
+{
+  color: rgb(255, 145, 0);
   
 }
 #toggle:checked + .dropdown
@@ -271,5 +276,11 @@ height:45%;
 .foot a
 {
   margin-left:15px;
+}
+#tarun
+{
+  width: 230px;
+  height: 35px;
+
 }
 }
