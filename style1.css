@@ -19,7 +19,7 @@ html, body{
   box-shadow: 4px 5px 11px 10px rgba(0,0,0,0.50);
   min-width: 100%;
   display:block;
-  line-height: 50px;
+  line-height: 30px;
   border: 2px solid rgb(255, 255, 255);
 }
 #code_img
@@ -177,7 +177,7 @@ height: 7.5%;
 { 
    margin-left:2%; 
    padding-bottom:0px;
-   top:18px;
+   top:13px;
    display:inline;
    position: relative;
 }
